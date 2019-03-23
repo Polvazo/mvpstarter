@@ -45,6 +45,13 @@ class _HomePageInvitado extends State<HomePageInvitado> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+            iconTheme: IconThemeData(color: Colors.white),
+            centerTitle: true,
+            title: Text(
+              'MVPStarter',
+              style: TextStyle(color: Colors.white),
+            )),
         bottomNavigationBar: CurvedNavigationBar(
           initialIndex: _pageIndex,
           items: <Widget>[

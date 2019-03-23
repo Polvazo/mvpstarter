@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mvpstarter/Home/register_claim.dart';
 import 'package:mvpstarter/Utils/utils.dart';
 import 'package:mvpstarter/Invitado/home-page.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 
 
 class LoginPage extends StatefulWidget {
@@ -11,6 +12,16 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  final FirebaseMessaging _messaging = FirebaseMessaging();
+
+  @override
+  void initState() {
+    super.initState();
+    _messaging.getToken().then((token) {
+      print(token);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final logo = Hero(

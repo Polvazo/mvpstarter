@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Kodeversitas',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: utils.parseColor('#04acd4'),
+
       ),
       home: LoginPage(),
       routes: routes,

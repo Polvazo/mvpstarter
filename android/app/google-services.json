@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "115163568685",
+    "firebase_url": "https://mvpstarter-a4b84.firebaseio.com",
+    "project_id": "mvpstarter-a4b84",
+    "storage_bucket": "mvpstarter-a4b84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115163568685:android:691da73d7e33fc47",
+        "android_client_info": {
+          "package_name": "codeblack.mvpstarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115163568685-fdns2i1p6mnj9at46sipccr62irg5aah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnoBVtaIXBvK6Hjs4-1lySIMjYT2kn9Ng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

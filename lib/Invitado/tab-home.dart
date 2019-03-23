@@ -210,8 +210,6 @@ class TabHome extends StatelessWidget {
     ),
   );
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -219,7 +217,7 @@ class TabHome extends StatelessWidget {
       body: Center(
           child: ListView(
         shrinkWrap: true,
-        padding: EdgeInsets.only(left: 24.0, right: 24.0),
+        padding: EdgeInsets.only(left: 24.0, right: 24.0,bottom: 15.0, top: 15.0),
         children: <Widget>[
           component_analisis,
           SizedBox(height: 10.0),
