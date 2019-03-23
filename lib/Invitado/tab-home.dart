@@ -219,6 +219,8 @@ class TabHome extends StatelessWidget {
         shrinkWrap: true,
         padding: EdgeInsets.only(left: 24.0, right: 24.0,bottom: 15.0, top: 15.0),
         children: <Widget>[
+          tv_starter,
+          SizedBox(height: 10.0),
           component_analisis,
           SizedBox(height: 10.0),
           component_gestion,
